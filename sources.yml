@@ -1,0 +1,46 @@
+# sources.yml
+schema_version: "1.0"
+mcp_name: "Australian Law MCP"
+jurisdiction: "AU"
+
+sources:
+  - name: "Federal Register of Legislation"
+    authority: "Australian Government, Office of Parliamentary Counsel"
+    official_portal: "https://www.legislation.gov.au"
+    canonical_identifier: "N/A (Australian legislation uses Act title + year as canonical identifier)"
+    retrieval_method: "XML_DOWNLOAD"
+    api_documentation: "https://www.legislation.gov.au/content/what-data-is-available"
+    update_frequency: "weekly"
+    last_ingested: "PENDING_FIRST_INGEST"
+    license_or_terms:
+      type: "Creative Commons Attribution 4.0 International (CC BY 4.0)"
+      url: "https://www.legislation.gov.au/content/copyright"
+      summary: "Australian Government open data, free to use with attribution to the Commonwealth of Australia"
+    coverage:
+      scope: "All Commonwealth (federal) Acts, legislative instruments, regulations, and compilations including Privacy Act 1988, Security of Critical Infrastructure Act 2018 (SOCI), Telecommunications Act 1997, Corporations Act 2001, Competition and Consumer Act 2010, Cybercrime Act 2001, Electronic Transactions Act 1999"
+      limitations: "State and territory legislation not included; historical versions may be incomplete for Acts repealed before digitisation; subsidiary instruments may lag behind gazette publication"
+    languages:
+      - "en"
+
+  - name: "Australasian Legal Information Institute (AustLII)"
+    authority: "AustLII, jointly operated by UTS and UNSW Sydney"
+    official_portal: "https://www.austlii.edu.au"
+    canonical_identifier: "N/A"
+    retrieval_method: "HTML_SCRAPE"
+    api_documentation: "N/A"
+    update_frequency: "weekly"
+    last_ingested: "PENDING_FIRST_INGEST"
+    license_or_terms:
+      type: "AustLII Terms of Use"
+      url: "https://www.austlii.edu.au/austlii/disclaimer.html"
+      summary: "Free access to legal information; bulk download requires permission; case law and state legislation supplements federal data"
+    coverage:
+      scope: "Case law from High Court, Federal Court, and state courts; state and territory legislation; treaties; law reform reports"
+      limitations: "Not all case law is published; some state legislation may have delayed updates; commercial use restrictions may apply to bulk downloads"
+    languages:
+      - "en"
+
+data_freshness:
+  automated_checks: true
+  check_frequency: "weekly"
+  last_verified: "PENDING_FIRST_INGEST"

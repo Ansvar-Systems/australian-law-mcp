@@ -1,0 +1,56 @@
+{
+  "$schema": "./golden-hashes.schema.json",
+  "version": "1.0",
+  "mcp_name": "Australian Law MCP",
+  "jurisdiction": "AU",
+  "provisions": [
+    {
+      "id": "au-hash-001",
+      "description": "Commonwealth of Australia Constitution Act — Section 1 (Legislative power of the Commonwealth vested in Federal Parliament)",
+      "upstream_url": "https://www.legislation.gov.au/C2004H03907/latest/text",
+      "selector_hint": "Section 1 - Legislative power",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "The legislative power of the Commonwealth shall be vested in a Federal Parliament"
+    },
+    {
+      "id": "au-hash-002",
+      "description": "Privacy Act 1988 — Section 2 (Commencement)",
+      "upstream_url": "https://www.legislation.gov.au/C2004A03712/latest/text",
+      "selector_hint": "Section 2 - Commencement",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "This Act commences on a day to be fixed by Proclamation"
+    },
+    {
+      "id": "au-hash-003",
+      "description": "Security of Critical Infrastructure Act 2018 — Section 3 (Objects of this Act)",
+      "upstream_url": "https://www.legislation.gov.au/C2018A00029/latest/text",
+      "selector_hint": "Section 3 - Objects",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "objects of this Act"
+    },
+    {
+      "id": "au-hash-004",
+      "description": "Corporations Act 2001 — Section 1 (Short title)",
+      "upstream_url": "https://www.legislation.gov.au/C2004A00818/latest/text",
+      "selector_hint": "Section 1 - Short title",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "Corporations Act 2001"
+    },
+    {
+      "id": "au-hash-005",
+      "description": "Competition and Consumer Act 2010 — Section 2 (Commencement)",
+      "upstream_url": "https://www.legislation.gov.au/C2004A00109/latest/text",
+      "selector_hint": "Section 2 - Commencement",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "This Act commences"
+    },
+    {
+      "id": "au-hash-006",
+      "description": "Electronic Transactions Act 1999 — Section 3 (Objects)",
+      "upstream_url": "https://www.legislation.gov.au/C2004A00553/latest/text",
+      "selector_hint": "Section 3 - Object",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "object of this Act"
+    }
+  ]
+}
