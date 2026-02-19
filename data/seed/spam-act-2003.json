@@ -1,0 +1,563 @@
+{
+  "id": "spam-act-2003",
+  "type": "statute",
+  "title": "Spam Act 2003",
+  "title_en": "Spam Act 2003",
+  "short_name": "Spam Act 2003",
+  "status": "in_force",
+  "issued_date": "2003-12-12",
+  "in_force_date": "2016-03-10",
+  "url": "https://www.legislation.gov.au/C2004A01214/latest/text",
+  "description": "Spam Act 2003 - Australian federal legislation. Register ID: C2016C00614. Compilation number: 10. Source: Federal Register of Legislation (legislation.gov.au).",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "chapter": "Part 1 — Introduction",
+      "section": "1",
+      "title": "Short title",
+      "content": "This Act may be cited as the Spam Act 2003 ."
+    },
+    {
+      "provision_ref": "s2",
+      "chapter": "Part 1 — Introduction",
+      "section": "2",
+      "title": "Commencement",
+      "content": "(1) Each provision of this Act specified in column 1 of the table commences, or is taken to have commenced, in accordance with column 2 of the table. Any other statement in column 2 has effect according to its terms. Commencement information Column 1 Column 2 Column 3 Provision(s) Commencement Date/Details 1. Sections 1 and 2 and anything in this Act not elsewhere covered by this table The day on which this Act receives the Royal Assent. 12 December 2003 2. Sections 3 to 14 The day on which this Act receives the Royal Assent. 12 December 2003 3. Parts 2 to 6 On the day after the end of the period of 120 days beginning on the day on which this Act receives the Royal Assent. 10 April 2004 4. Section 41 On the day after the end of the period of 120 days beginning on the day on which this Act receives the Royal Assent. 10 April 2004 5. Section 42 The day on which this Act receives the Royal Assent. 12 December 2003 6. Sections 43 to 46 On the day after the end of the period of 120 days beginning on the day on which this Act receives the Royal Assent. 10 April 2004 7. Section 47 The day on which this Act receives the Royal Assent. 12 December 2003 8. Schedule 1 On the day after the end of the period of 120 days beginning on the day on which this Act receives the Royal Assent. 10 April 2004 9. Schedule 2 The day on which this Act receives the Royal Assent. 12 December 2003 10. Schedule 3 On the day after the end of the period of 120 days beginning on the day on which this Act receives the Royal Assent. 10 April 2004 Note: This table relates only to the provisions of this Act as originally passed by the Parliament and assented to. It will not be expanded to deal with provisions inserted in this Act after assent. (2) Column 3 of the table contains additional information that is not part of this Act. Information in this column may be added to or edited in any published version of this Act."
+    },
+    {
+      "provision_ref": "s3",
+      "chapter": "Part 1 — Introduction",
+      "section": "3",
+      "title": "Simplified outline",
+      "content": "The following is a simplified outline of this Act: Note: The Telecommunications Act 1997 contains additional provisions about commercial electronic messages. Those provisions include Part 6 (industry codes and standards), Part 26 (investigations), Part 27 (information - gathering powers) and Part 28 (enforcement)."
+    },
+    {
+      "provision_ref": "s4",
+      "chapter": "Part 1 — Introduction",
+      "section": "4",
+      "title": "Definitions",
+      "content": "In this Act, unless the contrary intention appears: account includes: (a) a free account; and (b) a pre - paid account; and (c) anything that may reasonably be regarded as the equivalent of an account. ACMA means the Australian Communications and Media Authority. acquire , when used in relation to goods or services, has the same meaning as in the Competition and Consumer Act 2010 . address - harvesting software means software that is specifically designed or marketed for use for: (a) searching the internet for electronic addresses; and (b) collecting, compiling, capturing or otherwise harvesting those electronic addresses. agency includes: (a) an armed force; and (b) a police force. Australia , when used in a geographical sense, includes the external Territories. Australian link has the meaning given by section 7. authorise , when used in relation to the sending of an electronic message, has a meaning affected by section 8. business includes a venture or concern in trade or commerce, whether or not conducted on a regular, repetitive or continuous basis. carriage service has the same meaning as in the Telecommunications Act 1997 . civil penalty provision means any of the following provisions: (a) subsections 16(1), (6) and (9); (b) subsections 17(1) and (5); (c) subsections 18(1) and (6); (d) subsections 20(1) and (5); (e) subsections 21(1) and (3); (f) subsections 22(1) and (3); (g) a provision of the regulations that is declared to be a civil penalty provision in accordance with paragraph 45(2)(c). commercial electronic message has the meaning given by section 6. consent , when used in relation to the sending of an electronic message, has the meaning given by Schedule 2. data processing device has the same meaning as in the Telecommunications Act 1997 . dealing with , when used in relation to a commercial electronic message, includes: (a) accessing the message; and (b) responding to the message; and (c) filtering the message. designated commercial electronic message has the meaning given by Schedule 1. director includes a member of the governing body of an organisation. educational institution includes: (a) a pre - school; and (b) a school; and (c) a college; and (d) a university. electronic message has the meaning given by section 5. employee includes an individual who is in the service of an armed force, a police force or a religious organisation. evidential burden , in relation to a matter, means the burden of adducing or pointing to evidence that suggests a reasonable possibility that the matter exists or does not exist. Federal Court means the Federal Court of Australia. goods has the same meaning as in the Competition and Consumer Act 2010 . government body means: (a) a department of the Commonwealth, a State or a Territory; or (b) an agency, authority or instrumentality of the Commonwealth, a State or a Territory; or (c) a department of the government of a foreign country; or (d) an agency, authority or instrumentality of the government of a foreign country; or (e) a department of the government of a part of a foreign country; or (f) an agency, authority or instrumentality of the government of a part of a foreign country. harvested - address list means: (a) a list of electronic addresses; or (b) a collection of electronic addresses; or (c) a compilation of electronic addresses; where the production of the list, collection or compilation is, to any extent, directly or indirectly attributable to the use of address - harvesting software. international convention means: (a) a convention to which Australia is a party; or (b) an agreement between Australia and a foreign country. internet carriage service means a listed carriage service that enables end - users to access the internet. investment means any mode of application of money or other property for the purpose of gaining a return (whether by way of income, capital gain or any other form of return). listed carriage service has the same meaning as in the Telecommunications Act 1997 . logo includes a trade mark. message means information: (a) whether in the form of text; or (b) whether in the form of data; or (c) whether in the form of speech, music or other sounds; or (d) whether in the form of visual images (animated or otherwise); or (e) whether in any other form; or (f) whether in any combination of forms. mistake means reasonable mistake of fact. organisation includes: (a) a body corporate; and (b) a partnership; and (c) a government body; and (d) a court or tribunal; and (e) an unincorporated body or association. Express references in this Act to organisations do not imply that references in this Act to persons do not include bodies politic or corporate. Note: Subsection 2C(1) of the Acts Interpretation Act 1901 provides that person includes a body politic or corporate as well as an individual. person includes a partnership. Note: For treatment of partnerships, see section 585 of the Telecommunications Act 1997 . publish includes: (a) publish on the internet; and (b) publish to the public or a section of the public. registered charity means an entity that is registered under the Australian Charities and Not - for - profits Commission Act 2012 as the type of entity mentioned in column 1 of item 1 of the table in subsection 25 - 5(5) of that Act. registered political party means a political party, or a branch or division of a political party, that is registered under: (a) the Commonwealth Electoral Act 1918 ; or (b) a law of a State or Territory that deals with electoral matters. relevant electronic account - holder , in relation to the sending of an electronic message to an electronic address, means: (a) if the electronic address is an email address—the individual or organisation who is responsible for the relevant email account; or (b) if the message is sent to an electronic address in connection with an instant messaging service—the individual or organisation who is responsible for the relevant instant messaging account; or (c) if the electronic address is a telephone number—the individual or organisation who is responsible for the relevant telephone account; or (d) in any other case—the individual or organisation who is responsible for the relevant account. send includes attempt to send. Note: See also section 9. services has the same meaning as in the Competition and Consumer Act 2010 . software includes a combination of software and associated data. standard telephone service has the same meaning as in the Telecommunications (Consumer Protection and Service Standards) Act 1999 . supply : (a) when used in relation to goods or services—has the same meaning as in the Competition and Consumer Act 2010 ; or (b) when used in relation to land—includes transfer; or (c) when used in relation to an interest in land—includes transfer or create. use has a meaning affected by section 11. voice call means: (a) a voice call within the ordinary meaning of that expression; or (b) a call that involves a recorded or synthetic voice; or (c) if a call covered by paragraph (a) or (b) is not practical for a particular customer with a disability (for example, because the customer has a hearing impairment)—a call that is equivalent to a call covered by either of those paragraphs; whether or not the customer responds by way of pressing buttons on a telephone handset or similar thing."
+    },
+    {
+      "provision_ref": "s5",
+      "chapter": "Part 1 — Introduction",
+      "section": "5",
+      "title": "Electronic messages",
+      "content": "Basic definition (1) For the purposes of this Act, an electronic message is a message sent: (a) using: (i) an internet carriage service; or (ii) any other listed carriage service; and (b) to an electronic address in connection with: (i) an email account; or (ii) an instant messaging account; or (iii) a telephone account; or (iv) a similar account. Note: Email addresses and telephone numbers are examples of electronic addresses. (2) For the purposes of subsection (1), it is immaterial whether the electronic address exists. (3) For the purposes of subsection (1), it is immaterial whether the message reaches its intended destination. (4) Subsection (1) has effect subject to subsection (5). Excluded messages—voice calls (5) If a message is sent by way of a voice call made using a standard telephone service, the message is not an electronic message for the purposes of this Act."
+    },
+    {
+      "provision_ref": "s6",
+      "chapter": "Part 1 — Introduction",
+      "section": "6",
+      "title": "Commercial electronic messages",
+      "content": "Basic definition (1) For the purposes of this Act, a commercial electronic message is an electronic message, where, having regard to: (a) the content of the message; and (b) the way in which the message is presented; and (c) the content that can be located using the links, telephone numbers or contact information (if any) set out in the message; it would be concluded that the purpose, or one of the purposes, of the message is: (d) to offer to supply goods or services; or (e) to advertise or promote goods or services; or (f) to advertise or promote a supplier, or prospective supplier, of goods or services; or (g) to offer to supply land or an interest in land; or (h) to advertise or promote land or an interest in land; or (i) to advertise or promote a supplier, or prospective supplier, of land or an interest in land; or (j) to offer to provide a business opportunity or investment opportunity; or (k) to advertise or promote a business opportunity or investment opportunity; or (l) to advertise or promote a provider, or prospective provider, of a business opportunity or investment opportunity; or (m) to assist or enable a person, by a deception, to dishonestly obtain property belonging to another person; or (n) to assist or enable a person, by a deception, to dishonestly obtain a financial advantage from another person; or (o) to assist or enable a person to dishonestly obtain a gain from another person; or (p) a purpose specified in the regulations. (2) For the purposes of paragraphs (1)(d) to (l), it is immaterial whether the goods, services, land, interest or opportunity exists. (3) For the purposes of paragraphs (1)(d) to (l), it is immaterial whether it is lawful to acquire the goods, services, land or interest or take up the opportunity. (4) Any of the following: (a) the supplier or prospective supplier mentioned in paragraph (1)(f) or (i); (b) the provider or prospective provider mentioned in paragraph (1)(l); (c) the person first mentioned in paragraph (1)(m), (n) or (o); may be the individual or organisation who sent the message or authorised the sending of the message. (5) Paragraphs (1)(d) to (p) are to be read independently of each other. (6) Subsection (1) has effect subject to subsection (7). Excluded messages—regulations (7) The regulations may provide that a specified kind of electronic message is not a commercial electronic message for the purposes of this Act. Interpretation (8) An expression used in paragraph (1)(m) of this section and in section 134.1 of the Criminal Code has the same meaning in that paragraph as it has in that section. (9) An expression used in paragraph (1)(n) of this section and in section 134.2 of the Criminal Code has the same meaning in that paragraph as it has in that section. (10) An expression used in paragraph (1)(o) of this section and in section 135.1 of the Criminal Code has the same meaning in that paragraph as it has in that section."
+    },
+    {
+      "provision_ref": "s7",
+      "chapter": "Part 1 — Introduction",
+      "section": "7",
+      "title": "Australian link",
+      "content": "For the purposes of this Act, a commercial electronic message has an Australian link if, and only if: (a) the message originates in Australia; or (b) the individual or organisation who sent the message, or authorised the sending of the message, is: (i) an individual who is physically present in Australia when the message is sent; or (ii) an organisation whose central management and control is in Australia when the message is sent; or (c) the computer, server or device that is used to access the message is located in Australia; or (d) the relevant electronic account - holder is: (i) an individual who is physically present in Australia when the message is accessed; or (ii) an organisation that carries on business or activities in Australia when the message is accessed; or (e) if the message cannot be delivered because the relevant electronic address does not exist—assuming that the electronic address existed, it is reasonably likely that the message would have been accessed using a computer, server or device located in Australia."
+    },
+    {
+      "provision_ref": "s8",
+      "chapter": "Part 1 — Introduction",
+      "section": "8",
+      "title": "Authorising the sending of electronic messages",
+      "content": "Attribution of authorisation to organisation (1) For the purposes of this Act (including subsection (2)), if: (a) an individual authorises the sending of an electronic message; and (b) the individual does so on behalf of an organisation; then: (c) the organisation is taken to authorise the sending of the electronic message; and (d) the individual is taken not to authorise the sending of the electronic message. Self - authorisation (2) For the purposes of this Act, if: (a) an electronic message is sent by an individual or organisation; and (b) the sending of the message is not authorised by any other individual or organisation; the first - mentioned individual or organisation is taken to authorise the sending of the message."
+    },
+    {
+      "provision_ref": "s9",
+      "chapter": "Part 1 — Introduction",
+      "section": "9",
+      "title": "Sending of electronic messages—carriage service providers",
+      "content": "(1) For the purposes of this Act, a person does not send an electronic message, or cause an electronic message to be sent, merely because the person supplies a carriage service that enables the message to be sent. (2) Subsection (1) is enacted for the avoidance of doubt."
+    },
+    {
+      "provision_ref": "s10",
+      "chapter": "Part 1 — Introduction",
+      "section": "10",
+      "title": "Continuity of partnerships",
+      "content": "For the purposes of this Act, a change in the composition of a partnership does not affect the continuity of the partnership."
+    },
+    {
+      "provision_ref": "s11",
+      "chapter": "Part 1 — Introduction",
+      "section": "11",
+      "title": "Extended meaning of use",
+      "content": "Unless the contrary intention appears, a reference in this Act to the use of a thing is a reference to the use of the thing either: (a) in isolation; or (b) in conjunction with one or more other things."
+    },
+    {
+      "provision_ref": "s12",
+      "chapter": "Part 1 — Introduction",
+      "section": "12",
+      "title": "Crown to be bound",
+      "content": "(1) This Act binds the Crown in each of its capacities. (2) This Act does not make the Crown liable to a pecuniary penalty or to be prosecuted for an offence. (3) The protection in subsection (2) does not apply to an authority of the Crown."
+    },
+    {
+      "provision_ref": "s13",
+      "chapter": "Part 1 — Introduction",
+      "section": "13",
+      "title": "Extension to external Territories",
+      "content": "This Act extends to every external Territory."
+    },
+    {
+      "provision_ref": "s14",
+      "chapter": "Part 1 — Introduction",
+      "section": "14",
+      "title": "Extra - territorial application",
+      "content": "Unless the contrary intention appears, this Act extends to acts, omissions, matters and things outside Australia."
+    },
+    {
+      "provision_ref": "s15",
+      "chapter": "Part 2 — Rules about sending commercial electronic messages",
+      "section": "15",
+      "title": "Simplified outline",
+      "content": "The following is a simplified outline of this Part:"
+    },
+    {
+      "provision_ref": "s16",
+      "chapter": "Part 2 — Rules about sending commercial electronic messages",
+      "section": "16",
+      "title": "Unsolicited commercial electronic messages must not be sent",
+      "content": "(1) A person must not send, or cause to be sent, a commercial electronic message that: (a) has an Australian link; and (b) is not a designated commercial electronic message. Note 1: For Australian link , see section 7. Note 2: For designated commercial electronic message , see Schedule 1. (2) Subsection (1) does not apply if the relevant electronic account - holder consented to the sending of the message. Note: For the meaning of consent , see Schedule 2. (3) Subsection (1) does not apply if the person: (a) did not know; and (b) could not, with reasonable diligence, have ascertained; that the message had an Australian link. (4) Subsection (1) does not apply if the person sent the message, or caused the message to be sent, by mistake. (5) A person who wishes to rely on subsection (2), (3) or (4) bears an evidential burden in relation to that matter. Message must not be sent to a non - existent electronic address (6) A person must not send, or cause to be sent, a commercial electronic message to a non - existent electronic address if: (a) the person did not have reason to believe that the electronic address existed; and (b) the electronic message: (i) has an Australian link; and (ii) is not a designated commercial electronic message. (7) Subsection (6) does not apply if the person: (a) did not know; and (b) could not, with reasonable diligence, have ascertained; that the message had an Australian link. (8) A person who wishes to rely on subsection (7) bears an evidential burden in relation to that matter. Ancillary contraventions (9) A person must not: (a) aid, abet, counsel or procure a contravention of subsection (1) or (6); or (b) induce, whether by threats or promises or otherwise, a contravention of subsection (1) or (6); or (c) be in any way, directly or indirectly, knowingly concerned in, or party to, a contravention of subsection (1) or (6); or (d) conspire with others to effect a contravention of subsection (1) or (6). (10) A person does not contravene subsection (9) merely because the person supplies a carriage service that enables an electronic message to be sent. Civil penalty provisions (11) Subsections (1), (6) and (9) are civil penalty provisions . Note: Part 4 provides for pecuniary penalties for breaches of civil penalty provisions."
+    },
+    {
+      "provision_ref": "s17",
+      "chapter": "Part 2 — Rules about sending commercial electronic messages",
+      "section": "17",
+      "title": "Commercial electronic messages must include accurate sender information",
+      "content": "(1) A person must not send, or cause to be sent, a commercial electronic message that has an Australian link unless: (a) the message clearly and accurately identifies the individual or organisation who authorised the sending of the message; and (b) the message includes accurate information about how the recipient can readily contact that individual or organisation; and (c) that information complies with the condition or conditions (if any) specified in the regulations; and (d) that information is reasonably likely to be valid for at least 30 days after the message is sent. Note: For Australian link , see section 7. (2) Subsection (1) does not apply if the person: (a) did not know; and (b) could not, with reasonable diligence, have ascertained; that the message had an Australian link. (3) Subsection (1) does not apply if the person sent the message, or caused the message to be sent, by mistake. (4) A person who wishes to rely on subsection (2) or (3) bears an evidential burden in relation to that matter. Ancillary contraventions (5) A person must not: (a) aid, abet, counsel or procure a contravention of subsection (1); or (b) induce, whether by threats or promises or otherwise, a contravention of subsection (1); or (c) be in any way, directly or indirectly, knowingly concerned in, or party to, a contravention of subsection (1); or (d) conspire with others to effect a contravention of subsection (1). (6) A person does not contravene subsection (5) merely because the person supplies a carriage service that enables an electronic message to be sent. Civil penalty provisions (7) Subsections (1) and (5) are civil penalty provisions . Note: Part 4 provides for pecuniary penalties for breaches of civil penalty provisions."
+    },
+    {
+      "provision_ref": "s18",
+      "chapter": "Part 2 — Rules about sending commercial electronic messages",
+      "section": "18",
+      "title": "Commercial electronic messages must contain a functional unsubscribe facility",
+      "content": "(1) A person must not send, or cause to be sent, a commercial electronic message that: (a) has an Australian link; and (b) is not a designated commercial electronic message; unless: (c) the message includes: (i) a statement to the effect that the recipient may use an electronic address set out in the message to send an unsubscribe message to the individual or organisation who authorised the sending of the first - mentioned message; or (ii) a statement to similar effect; and (d) the statement is presented in a clear and conspicuous manner; and (e) the electronic address is reasonably likely to be capable of receiving: (i) the recipient’s unsubscribe message (if any); and (ii) a reasonable number of similar unsubscribe messages sent by other recipients (if any) of the same message; at all times during a period of at least 30 days after the message is sent; and (f) the electronic address is legitimately obtained; and (g) the electronic address complies with the condition or conditions (if any) specified in the regulations. Note 1: For unsubscribe message , see subsection (8). Note 2: For Australian link , see section 7. Note 3: For designated commercial electronic message , see Schedule 1. (2) Subsection (1) does not apply if the person: (a) did not know; and (b) could not, with reasonable diligence, have ascertained; that the message had an Australian link. (3) Subsection (1) does not apply to the extent (if any) to which it is inconsistent with the terms of a contract or other agreement between: (a) the individual or organisation who authorised the sending of the first - mentioned message; and (b) the relevant electronic account - holder. (4) Subsection (1) does not apply if the person sent the message, or caused the message to be sent, by mistake. (5) A person who wishes to rely on subsection (2), (3) or (4) bears an evidential burden in relation to that matter. Ancillary contraventions (6) A person must not: (a) aid, abet, counsel or procure a contravention of subsection (1); or (b) induce, whether by threats or promises or otherwise, a contravention of subsection (1); or (c) be in any way, directly or indirectly, knowingly concerned in, or party to, a contravention of subsection (1); or (d) conspire with others to effect a contravention of subsection (1). (7) A person does not contravene subsection (6) merely because the person supplies a carriage service that enables an electronic message to be sent. Civil penalty provisions (8) Subsections (1) and (6) are civil penalty provisions . Note: Part 4 provides for pecuniary penalties for breaches of civil penalty provisions. Unsubscribe message (9) For the purposes of the application of this section to a commercial electronic message, where the sending of the message is authorised by an individual or organisation, an unsubscribe message is: (a) an electronic message to the effect that the relevant electronic account - holder does not want to receive any further commercial electronic messages from or authorised by that individual or organisation; or (b) an electronic message to similar effect."
+    },
+    {
+      "provision_ref": "s19",
+      "chapter": "Part 3 — Rules about address - harvesting software and harvested - address lists",
+      "section": "19",
+      "title": "Simplified outline",
+      "content": "The following is a simplified outline of this Part:"
+    },
+    {
+      "provision_ref": "s20",
+      "chapter": "Part 3 — Rules about address - harvesting software and harvested - address lists",
+      "section": "20",
+      "title": "Address - harvesting software and harvested - address lists must not be supplied",
+      "content": "(1) A person (the supplier ) must not supply or offer to supply: (a) address - harvesting software; or (b) a right to use address - harvesting software; or (c) a harvested - address list; or (d) a right to use a harvested - address list; to another person (the customer ) if: (e) the supplier is: (i) an individual who is physically present in Australia at the time of the supply or offer; or (ii) a body corporate or partnership that carries on business or activities in Australia at the time of the supply or offer; or (f) the customer is: (i) an individual who is physically present in Australia at the time of the supply or offer; or (ii) a body corporate or partnership that carries on business or activities in Australia at the time of the supply or offer. Note: For treatment of partnerships, see section 585 of the Telecommunications Act 1997 . (2) Subsection (1) does not apply if the supplier had no reason to suspect that the customer, or another person, intended to use the address - harvesting software or the harvested - address list, as the case may be, in connection with sending commercial electronic messages in contravention of section 16. (3) Subsection (1) does not apply if the supplier: (a) did not know; and (b) could not, with reasonable diligence, have ascertained; that the customer was: (c) an individual who was physically present in Australia at the time of the supply or offer; or (d) a body corporate or partnership that carried on business or activities in Australia at the time of the supply or offer. (4) A person who wishes to rely on subsection (3) bears an evidential burden in relation to that matter. Ancillary contraventions (5) A person must not: (a) aid, abet, counsel or procure a contravention of subsection (1); or (b) induce, whether by threats or promises or otherwise, a contravention of subsection (1); or (c) be in any way, directly or indirectly, knowingly concerned in, or party to, a contravention of subsection (1); or (d) conspire with others to effect a contravention of subsection (1). Civil penalty provisions (6) Subsections (1) and (5) are civil penalty provisions . Note: Part 4 provides for pecuniary penalties for breaches of civil penalty provisions."
+    },
+    {
+      "provision_ref": "s21",
+      "chapter": "Part 3 — Rules about address - harvesting software and harvested - address lists",
+      "section": "21",
+      "title": "Address - harvesting software and harvested - address lists must not be acquired",
+      "content": "(1) A person must not acquire: (a) address - harvesting software; or (b) a right to use address - harvesting software; or (c) a harvested - address list; or (d) a right to use a harvested - address list; if the person is: (e) an individual who is physically present in Australia at the time of the acquisition; or (f) a body corporate or partnership that carries on business or activities in Australia at the time of the acquisition. Note: For treatment of partnerships, see section 585 of the Telecommunications Act 1997 . (2) Subsection (1) does not apply if the person did not intend to use the address - harvesting software or the harvested - address list, as the case may be, in connection with sending commercial electronic messages in contravention of section 16. Ancillary contraventions (3) A person must not: (a) aid, abet, counsel or procure a contravention of subsection (1); or (b) induce, whether by threats or promises or otherwise, a contravention of subsection (1); or (c) be in any way, directly or indirectly, knowingly concerned in, or party to, a contravention of subsection (1); or (d) conspire with others to effect a contravention of subsection (1). Civil penalty provisions (4) Subsections (1) and (3) are civil penalty provisions . Note: Part 4 provides for pecuniary penalties for breaches of civil penalty provisions."
+    },
+    {
+      "provision_ref": "s22",
+      "chapter": "Part 3 — Rules about address - harvesting software and harvested - address lists",
+      "section": "22",
+      "title": "Address - harvesting software and harvested - address lists must not be used",
+      "content": "(1) A person must not use: (a) address - harvesting software; or (b) a harvested - address list; if the person is: (c) an individual who is physically present in Australia at the time of the use; or (d) a body corporate or partnership that carries on business or activities in Australia at the time of the use. Note: For treatment of partnerships, see section 585 of the Telecommunications Act 1997 . (2) Subsection (1) does not apply in relation to the use of address - harvesting software or a harvested - address list, if the use was not in connection with sending commercial electronic messages in contravention of section 16. Ancillary contraventions (3) A person must not: (a) aid, abet, counsel or procure a contravention of subsection (1); or (b) induce, whether by threats or promises or otherwise, a contravention of subsection (1); or (c) be in any way, directly or indirectly, knowingly concerned in, or party to, a contravention of subsection (1); or (d) conspire with others to effect a contravention of subsection (1). Civil penalty provisions (4) Subsections (1) and (3) are civil penalty provisions . Note: Part 4 provides for pecuniary penalties for breaches of civil penalty provisions."
+    },
+    {
+      "provision_ref": "s23",
+      "chapter": "Part 4 — Civil penalties",
+      "section": "23",
+      "title": "Simplified outline",
+      "content": "The following is a simplified outline of this Part: Note: Schedule 3 sets up a system of infringement notices relating to contraventions of civil penalty provisions."
+    },
+    {
+      "provision_ref": "s24",
+      "chapter": "Part 4 — Civil penalties",
+      "section": "24",
+      "title": "Pecuniary penalties for contravention of civil penalty provisions",
+      "content": "(1) If the Federal Court is satisfied that a person has contravened a civil penalty provision, the Court may order the person to pay to the Commonwealth such pecuniary penalty, in respect of each contravention, as the Court determines to be appropriate. (2) In determining the pecuniary penalty, the Court must have regard to all relevant matters, including: (a) the nature and extent of the contravention; and (b) the nature and extent of any loss or damage suffered as a result of the contravention; and (c) the circumstances in which the contravention took place; and (d) whether the person has previously been found by the Court in proceedings under this Act to have engaged in any similar conduct; and (e) if the Court considers that it is appropriate to do so—whether the person has previously been found by a court in a foreign country to have engaged in any similar conduct."
+    },
+    {
+      "provision_ref": "s25",
+      "chapter": "Part 4 — Civil penalties",
+      "section": "25",
+      "title": "Maximum penalties for contravention of civil penalty provisions",
+      "content": "(1) The maximum penalty payable under subsection 24(1) by a person in respect of a contravention of a civil penalty provision depends on: (a) whether the person has a prior record in relation to the civil penalty provision (see subsection (2)); and (b) whether the person is a body corporate; and (c) whether the civil penalty provision is subsection 16(1), (6) or (9). Prior record (2) If: (a) on a particular day (the first day ), the Federal Court makes an order under subsection 24(1) against a person in respect of a contravention of a particular civil penalty provision; and (b) that is the first occasion on which the Federal Court makes an order under subsection 24(1) against the person in respect of a contravention of the civil penalty provision; then, for the purposes of determining the penalty payable under subsection 24(1) by the person in respect of a contravention of the civil penalty provision that occurs after the first day, the person has a prior record in relation to the civil penalty provision. Maximum penalty payable by body corporate—no prior record (3) If a body corporate does not have a prior record in relation to a particular civil penalty provision: (a) the penalty payable under subsection 24(1) by the body corporate in respect of a contravention of the civil penalty provision must not exceed: (i) if the civil penalty provision is subsection 16(1), (6) or (9)—100 penalty units; or (ii) in any other case—50 penalty units; and (b) if the Federal Court finds that the body corporate has, on a particular day, committed 2 or more contraventions of the civil penalty provision—the total of the penalties payable under subsection 24(1) by the body corporate in respect of those contraventions must not exceed: (i) if the civil penalty provision is subsection 16(1), (6) or (9)—2,000 penalty units; or (ii) in any other case—1,000 penalty units. Maximum penalty payable by a person other than a body corporate—no prior record (4) If a person other than a body corporate does not have a prior record in relation to a particular civil penalty provision: (a) the penalty payable under subsection 24(1) by the person in respect of a contravention of the civil penalty provision must not exceed: (i) if the civil penalty provision is subsection 16(1), (6) or (9)—20 penalty units; or (ii) in any other case—10 penalty units; and (b) if the Federal Court finds that the person has, on a particular day, committed 2 or more contraventions of the civil penalty provision—the total of the penalties payable under subsection 24(1) by the person in respect of those contraventions must not exceed: (i) if the civil penalty provision is subsection 16(1), (6) or (9)—400 penalty units; or (ii) in any other case—200 penalty units. Maximum penalty payable by body corporate—prior record (5) If a body corporate has a prior record in relation to a particular civil penalty provision: (a) the penalty payable under subsection 24(1) by the body corporate in respect of a contravention of the civil penalty provision must not exceed: (i) if the civil penalty provision is subsection 16(1), (6) or (9)—500 penalty units; or (ii) in any other case—250 penalty units; and (b) if the Federal Court finds that the body corporate has, on a particular day, committed 2 or more contraventions of the civil penalty provision—the total of the penalties payable under subsection 24(1) by the body corporate in respect of those contraventions must not exceed: (i) if the civil penalty provision is subsection 16(1), (6) or (9)—10,000 penalty units; or (ii) in any other case—5,000 penalty units. Maximum penalty payable by a person other than a body corporate—prior record (6) If a person other than a body corporate has a prior record in relation to a particular civil penalty provision: (a) the penalty payable under subsection 24(1) by the person in respect of a contravention of the civil penalty provision must not exceed: (i) if the civil penalty provision is subsection 16(1), (6) or (9)—100 penalty units; or (ii) in any other case—50 penalty units; and (b) if the Federal Court finds that the person has, on a particular day, committed 2 or more contraventions of the civil penalty provision—the total of the penalties payable under subsection 24(1) by the person in respect of those contraventions must not exceed: (i) if the civil penalty provision is subsection 16(1), (6) or (9)—2,000 penalty units; or (ii) in any other case—1,000 penalty units."
+    },
+    {
+      "provision_ref": "s26",
+      "chapter": "Part 4 — Civil penalties",
+      "section": "26",
+      "title": "Civil action for recovery of pecuniary penalties",
+      "content": "(1) The ACMA may institute a proceeding in the Federal Court for the recovery on behalf of the Commonwealth of a pecuniary penalty referred to in section 24. (2) A proceeding under subsection (1) may be commenced within 6 years after the contravention. (3) The Federal Court may direct that 2 or more proceedings under subsection (1) are to be heard together."
+    },
+    {
+      "provision_ref": "s27",
+      "chapter": "Part 4 — Civil penalties",
+      "section": "27",
+      "title": "Criminal proceedings not to be brought for contravention of civil penalty provisions",
+      "content": "Criminal proceedings do not lie against a person only because the person has contravened a civil penalty provision."
+    },
+    {
+      "provision_ref": "s28",
+      "chapter": "Part 4 — Civil penalties",
+      "section": "28",
+      "title": "Ancillary orders—compensation",
+      "content": "(1) If: (a) in one or more proceedings under section 26, the Federal Court finds that a person (the perpetrator ) has contravened one or more civil penalty provisions; and (b) the Court is satisfied that another person (the victim ) has suffered loss or damage as a result of any or all of those contraventions; the Court may, on the application of the ACMA or the victim, make an order that the Court considers appropriate directing the perpetrator to compensate the victim. (2) In determining whether a person (the victim ) has suffered loss or damage as a result of one or more contraventions by another person of section 16 in relation to the sending of one or more commercial electronic messages, and in assessing the amount of compensation payable, the Court may have regard to the following: (a) the extent to which any expenses incurred by the victim are attributable to dealing with the messages; (b) the effect of dealing with the messages on the victim’s ability to carry on business or other activities; (c) any damage to the reputation of the victim’s business that is attributable to dealing with the messages; (d) any loss of business opportunities suffered by the victim as a result of dealing with the messages; (e) any other matters that the Court considers relevant. (3) The Federal Court may make an order under subsection (1), whether or not it makes an order under section 24. (4) An application under subsection (1) may be made at any time within 6 years after the contravention concerned."
+    },
+    {
+      "provision_ref": "s29",
+      "chapter": "Part 4 — Civil penalties",
+      "section": "29",
+      "title": "Ancillary orders—recovery of financial benefit",
+      "content": "(1) If: (a) in one or more proceedings under section 26, the Federal Court finds that a person has contravened one or more civil penalty provisions; and (b) the Court is satisfied that the person has obtained (whether directly or indirectly) a financial benefit that is reasonably attributable to any or all of those contraventions; the Court may, on the application of the ACMA, make an order directing the person to pay to the Commonwealth an amount up to the amount of the financial benefit. (2) The Federal Court may make an order under subsection (1), whether or not it makes an order under section 24. (3) An application under subsection (1) may be made at any time within 6 years after the contravention concerned."
+    },
+    {
+      "provision_ref": "s30",
+      "chapter": "Part 4 — Civil penalties",
+      "section": "30",
+      "title": "Schedule 3 (infringement notices)",
+      "content": "Schedule 3 has effect."
+    },
+    {
+      "provision_ref": "s31",
+      "chapter": "Part 5 — Injunctions",
+      "section": "31",
+      "title": "Simplified outline",
+      "content": "The following is a simplified outline of this Part:"
+    },
+    {
+      "provision_ref": "s32",
+      "chapter": "Part 5 — Injunctions",
+      "section": "32",
+      "title": "Injunctions",
+      "content": "Restraining injunctions (1) If a person has engaged, is engaging or is proposing to engage, in any conduct in contravention of a civil penalty provision, the Federal Court may, on the application of the ACMA, grant an injunction: (a) restraining the person from engaging in the conduct; and (b) if, in the Court’s opinion, it is desirable to do so—requiring the person to do something. Performance injunctions (2) If: (a) a person has refused or failed, or is refusing or failing, or is proposing to refuse or fail, to do an act or thing; and (b) the refusal or failure was, is or would be a contravention of a civil penalty provision; the Federal Court may, on the application of the ACMA, grant an injunction requiring the person to do that act or thing."
+    },
+    {
+      "provision_ref": "s33",
+      "chapter": "Part 5 — Injunctions",
+      "section": "33",
+      "title": "Interim injunctions",
+      "content": "Grant of interim injunction (1) If an application is made to the Federal Court for an injunction under section 32, the Court may, before considering the application, grant an interim injunction restraining a person from engaging in conduct of a kind referred to in that section. No undertakings as to damages (2) The Federal Court is not to require an applicant for an injunction under section 32, as a condition of granting an interim injunction, to give any undertakings as to damages."
+    },
+    {
+      "provision_ref": "s34",
+      "chapter": "Part 5 — Injunctions",
+      "section": "34",
+      "title": "Discharge etc. of injunctions",
+      "content": "The Federal Court may discharge or vary an injunction granted under this Part."
+    },
+    {
+      "provision_ref": "s35",
+      "chapter": "Part 5 — Injunctions",
+      "section": "35",
+      "title": "Certain limits on granting injunctions not to apply",
+      "content": "Restraining injunctions (1) The power of the Federal Court under this Part to grant an injunction restraining a person from engaging in conduct of a particular kind may be exercised: (a) if the Court is satisfied that the person has engaged in conduct of that kind—whether or not it appears to the Court that the person intends to engage again, or to continue to engage, in conduct of that kind; or (b) if it appears to the Court that, if an injunction is not granted, it is likely that the person will engage in conduct of that kind—whether or not the person has previously engaged in conduct of that kind and whether or not there is an imminent danger of substantial damage to any person if the person engages in conduct of that kind. Performance injunctions (2) The power of the Federal Court to grant an injunction requiring a person to do an act or thing may be exercised: (a) if the Court is satisfied that the person has refused or failed to do that act or thing—whether or not it appears to the Court that the person intends to refuse or fail again, or to continue to refuse or fail, to do that act or thing; or (b) if it appears to the Court that, if an injunction is not granted, it is likely that the person will refuse or fail to do that act or thing—whether or not the person has previously refused or failed to do that act or thing and whether or not there is an imminent danger of substantial damage to any person if the person refuses or fails to do that act or thing."
+    },
+    {
+      "provision_ref": "s36",
+      "chapter": "Part 5 — Injunctions",
+      "section": "36",
+      "title": "Other powers of the Federal Court unaffected",
+      "content": "The powers conferred on the Federal Court under this Part are in addition to, and not instead of, any other powers of the Court, whether conferred by this Act or otherwise."
+    },
+    {
+      "provision_ref": "s37",
+      "chapter": "Part 6 — Enforceable undertakings",
+      "section": "37",
+      "title": "Simplified outline",
+      "content": "The following is a simplified outline of this Part:"
+    },
+    {
+      "provision_ref": "s38",
+      "chapter": "Part 6 — Enforceable undertakings",
+      "section": "38",
+      "title": "Acceptance of undertakings",
+      "content": "(1) The ACMA may accept a written undertaking given by a person for the purposes of this section in connection with a matter relating to: (a) commercial electronic messages; or (b) address - harvesting software. (2) The person may withdraw or vary the undertaking at any time, but only with the consent of the ACMA."
+    },
+    {
+      "provision_ref": "s39",
+      "chapter": "Part 6 — Enforceable undertakings",
+      "section": "39",
+      "title": "Enforcement of undertakings",
+      "content": "(1) If the ACMA considers that a person who gave an undertaking under section 38 has breached any of its terms, the ACMA may apply to the Federal Court for an order under subsection (2). (2) If the Federal Court is satisfied that the person has breached a term of the undertaking, the Court may make any or all of the following orders: (a) an order directing the person to comply with that term of the undertaking; (b) an order directing the person to pay to the Commonwealth an amount up to the amount of any financial benefit that the person has obtained directly or indirectly and that is reasonably attributable to the breach; (c) any order that the Court considers appropriate directing the person to compensate any other person who has suffered loss or damage as a result of the breach; (d) any other order that the Court considers appropriate."
+    },
+    {
+      "provision_ref": "s40",
+      "chapter": "Part 6 — Enforceable undertakings",
+      "section": "40",
+      "title": "Assessment of compensation for breach of undertaking",
+      "content": "(1) This section applies if, in a proceeding under section 39, the Federal Court finds that a person has breached a term of an undertaking relating to the sending of commercial electronic messages. (2) In determining whether another person (the victim ) has suffered loss or damage as a result of the breach, and in assessing the amount of compensation payable, the Court may have regard to the following: (a) the extent to which any expenses incurred by the victim are attributable to dealing with the messages; (b) the effect of dealing with the messages on the victim’s ability to carry on business or other activities; (c) any damage to the reputation of the victim’s business that is attributable to dealing with the messages; (d) any loss of business opportunities suffered by the victim as a result of dealing with the messages; (e) any other matters that the Court considers relevant."
+    },
+    {
+      "provision_ref": "s41",
+      "chapter": "Part 7 — Miscellaneous",
+      "section": "41",
+      "title": "Formal warnings—breach of civil penalty provision",
+      "content": "The ACMA may issue a formal warning if a person contravenes a civil penalty provision."
+    },
+    {
+      "provision_ref": "s42",
+      "chapter": "Part 7 — Miscellaneous",
+      "section": "42",
+      "title": "Additional ACMA functions",
+      "content": "The ACMA has the following functions: (a) to conduct and/or co - ordinate community education programs about either or both of the following: (i) unsolicited commercial electronic messages; (ii) address - harvesting software; in consultation with relevant industry and consumer groups and government agencies; (b) to conduct and/or commission research into issues relating to either or both of the following: (i) unsolicited commercial electronic messages; (ii) address - harvesting software; (c) to liaise with regulatory and other relevant bodies overseas about co - operative arrangements for the prohibition or regulation of either or both of the following: (i) unsolicited commercial electronic messages; (ii) address - harvesting software."
+    },
+    {
+      "provision_ref": "s43",
+      "chapter": "Part 7 — Miscellaneous",
+      "section": "43",
+      "title": "Operation of State and Territory laws",
+      "content": "This Act is not intended to exclude or limit the operation of a law of a State or Territory to the extent that the law is capable of operating concurrently with this Act."
+    },
+    {
+      "provision_ref": "s44",
+      "chapter": "Part 7 — Miscellaneous",
+      "section": "44",
+      "title": "Implied freedom of political communication",
+      "content": "This Act does not apply to the extent (if any) that it would infringe any constitutional doctrine of implied freedom of political communication."
+    },
+    {
+      "provision_ref": "s45",
+      "chapter": "Part 7 — Miscellaneous",
+      "section": "45",
+      "title": "Giving effect to international conventions",
+      "content": "(1) The regulations may make provision for and in relation to giving effect to an international convention that deals with either or both of the following: (a) commercial electronic messages; (b) address - harvesting software. (2) Regulations made for the purposes of subsection (1) may: (a) vest the Federal Court with jurisdiction in a matter or matters arising under the regulations; and (b) prescribe penalties, not exceeding a fine of 50 penalty units, for offences against the regulations; and (c) declare that a specified provision of the regulations is a civil penalty provision for the purposes of this Act."
+    },
+    {
+      "provision_ref": "s47",
+      "chapter": "Part 7 — Miscellaneous",
+      "section": "47",
+      "title": "Regulations",
+      "content": "The Governor - General may make regulations prescribing matters: (a) required or permitted to be prescribed by this Act; or (b) necessary or convenient to be prescribed for carrying out or giving effect to this Act."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "account",
+      "definition": "account includes:",
+      "source_provision": "s4"
+    },
+    {
+      "term": "ACMA",
+      "definition": "ACMA means the Australian Communications and Media Authority.",
+      "source_provision": "s4"
+    },
+    {
+      "term": "acquire",
+      "definition": "acquire , when used in relation to goods or services, has the same meaning as in the Competition and Consumer Act 2010 .",
+      "source_provision": "s4"
+    },
+    {
+      "term": "address",
+      "definition": "address - harvesting software means software that is specifically designed or marketed for use for:",
+      "source_provision": "s4"
+    },
+    {
+      "term": "agency",
+      "definition": "agency includes:",
+      "source_provision": "s4"
+    },
+    {
+      "term": "Australia",
+      "definition": "Australia , when used in a geographical sense, includes the external Territories.",
+      "source_provision": "s4"
+    },
+    {
+      "term": "Australian link",
+      "definition": "Australian link has the meaning given by section 7.",
+      "source_provision": "s4"
+    },
+    {
+      "term": "authorise",
+      "definition": "authorise , when used in relation to the sending of an electronic message, has a meaning affected by section 8.",
+      "source_provision": "s4"
+    },
+    {
+      "term": "business",
+      "definition": "business includes a venture or concern in trade or commerce, whether or not conducted on a regular, repetitive or continuous basis.",
+      "source_provision": "s4"
+    },
+    {
+      "term": "carriage service",
+      "definition": "carriage service has the same meaning as in the Telecommunications Act 1997 .",
+      "source_provision": "s4"
+    },
+    {
+      "term": "civil penalty provision",
+      "definition": "civil penalty provision means any of the following provisions:",
+      "source_provision": "s4"
+    },
+    {
+      "term": "commercial electronic message",
+      "definition": "commercial electronic message has the meaning given by section 6.",
+      "source_provision": "s4"
+    },
+    {
+      "term": "consent",
+      "definition": "consent , when used in relation to the sending of an electronic message, has the meaning given by Schedule 2.",
+      "source_provision": "s4"
+    },
+    {
+      "term": "data processing device",
+      "definition": "data processing device has the same meaning as in the Telecommunications Act 1997 .",
+      "source_provision": "s4"
+    },
+    {
+      "term": "dealing with",
+      "definition": "dealing with , when used in relation to a commercial electronic message, includes:",
+      "source_provision": "s4"
+    },
+    {
+      "term": "designated commercial electronic message",
+      "definition": "designated commercial electronic message has the meaning given by Schedule 1.",
+      "source_provision": "s4"
+    },
+    {
+      "term": "director",
+      "definition": "director includes a member of the governing body of an organisation.",
+      "source_provision": "s4"
+    },
+    {
+      "term": "educational institution",
+      "definition": "educational institution includes:",
+      "source_provision": "s4"
+    },
+    {
+      "term": "electronic message",
+      "definition": "electronic message has the meaning given by section 5.",
+      "source_provision": "s4"
+    },
+    {
+      "term": "employee",
+      "definition": "employee includes an individual who is in the service of an armed force, a police force or a religious organisation.",
+      "source_provision": "s4"
+    },
+    {
+      "term": "evidential burden",
+      "definition": "evidential burden , in relation to a matter, means the burden of adducing or pointing to evidence that suggests a reasonable possibility that the matter exists or does not exist.",
+      "source_provision": "s4"
+    },
+    {
+      "term": "Federal Court",
+      "definition": "Federal Court means the Federal Court of Australia.",
+      "source_provision": "s4"
+    },
+    {
+      "term": "goods",
+      "definition": "goods has the same meaning as in the Competition and Consumer Act 2010 .",
+      "source_provision": "s4"
+    },
+    {
+      "term": "government body",
+      "definition": "government body means:",
+      "source_provision": "s4"
+    },
+    {
+      "term": "harvested",
+      "definition": "harvested - address list means:",
+      "source_provision": "s4"
+    },
+    {
+      "term": "international convention",
+      "definition": "international convention means:",
+      "source_provision": "s4"
+    },
+    {
+      "term": "internet carriage service",
+      "definition": "internet carriage service means a listed carriage service that enables end - users to access the internet.",
+      "source_provision": "s4"
+    },
+    {
+      "term": "investment",
+      "definition": "investment means any mode of application of money or other property for the purpose of gaining a return (whether by way of income, capital gain or any other form of return).",
+      "source_provision": "s4"
+    },
+    {
+      "term": "listed carriage service",
+      "definition": "listed carriage service has the same meaning as in the Telecommunications Act 1997 .",
+      "source_provision": "s4"
+    },
+    {
+      "term": "logo",
+      "definition": "logo includes a trade mark.",
+      "source_provision": "s4"
+    },
+    {
+      "term": "message",
+      "definition": "message means information:",
+      "source_provision": "s4"
+    },
+    {
+      "term": "mistake",
+      "definition": "mistake means reasonable mistake of fact.",
+      "source_provision": "s4"
+    },
+    {
+      "term": "organisation",
+      "definition": "organisation includes:",
+      "source_provision": "s4"
+    },
+    {
+      "term": "person",
+      "definition": "person includes a partnership.",
+      "source_provision": "s4"
+    },
+    {
+      "term": "publish",
+      "definition": "publish includes:",
+      "source_provision": "s4"
+    },
+    {
+      "term": "registered charity",
+      "definition": "registered charity means an entity that is registered under the Australian Charities and Not - for - profits Commission Act 2012 as the type of entity mentioned in column 1 of item 1 of the table in subsection 25 - 5(5) of that Act.",
+      "source_provision": "s4"
+    },
+    {
+      "term": "registered political party",
+      "definition": "registered political party means a political party, or a branch or division of a political party, that is registered under:",
+      "source_provision": "s4"
+    },
+    {
+      "term": "relevant electronic account",
+      "definition": "relevant electronic account - holder , in relation to the sending of an electronic message to an electronic address, means:",
+      "source_provision": "s4"
+    },
+    {
+      "term": "send",
+      "definition": "send includes attempt to send.",
+      "source_provision": "s4"
+    },
+    {
+      "term": "services",
+      "definition": "services has the same meaning as in the Competition and Consumer Act 2010 .",
+      "source_provision": "s4"
+    },
+    {
+      "term": "software",
+      "definition": "software includes a combination of software and associated data.",
+      "source_provision": "s4"
+    },
+    {
+      "term": "standard telephone service",
+      "definition": "standard telephone service has the same meaning as in the Telecommunications (Consumer Protection and Service Standards) Act 1999 .",
+      "source_provision": "s4"
+    },
+    {
+      "term": "supply",
+      "definition": "supply :",
+      "source_provision": "s4"
+    },
+    {
+      "term": "use",
+      "definition": "use has a meaning affected by section 11.",
+      "source_provision": "s4"
+    },
+    {
+      "term": "voice call",
+      "definition": "voice call means:",
+      "source_provision": "s4"
+    }
+  ]
+}
