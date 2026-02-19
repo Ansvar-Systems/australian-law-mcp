@@ -1,0 +1,181 @@
+{
+  "$schema": "./golden-tests.schema.json",
+  "version": "1.0",
+  "mcp_name": "Australian Law MCP",
+  "description": "Golden contract tests for the Australian Law MCP — 12 tests covering article retrieval, search, citation, cross-reference, and negative cases",
+  "tests": [
+    {
+      "id": "au-001",
+      "category": "article_retrieval",
+      "description": "Retrieve Australian Privacy Principle 1 from the Privacy Act 1988 — open and transparent management of personal information",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Privacy Act 1988",
+        "article": "Australian Privacy Principle 1"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "text_contains": ["open and transparent management"],
+        "fields_present": ["text", "article_number"],
+        "citation_url_pattern": "^https://www\\.legislation\\.gov\\.au/"
+      }
+    },
+    {
+      "id": "au-002",
+      "category": "article_retrieval",
+      "description": "Retrieve Section 8 of the Security of Critical Infrastructure Act 2018 — critical infrastructure asset definitions",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Security of Critical Infrastructure Act 2018",
+        "article": "8"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "any_result_contains": ["critical infrastructure asset", "critical infrastructure sector"],
+        "fields_present": ["text", "article_number"],
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "au-003",
+      "category": "article_retrieval",
+      "description": "Retrieve Section 1 of the Corporations Act 2001 — short title referencing regulatory framework",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Corporations Act 2001",
+        "article": "1"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "any_result_contains": ["Corporations Act", "2001"],
+        "fields_present": ["text"],
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "au-004",
+      "category": "search",
+      "description": "Full-text search for 'personal information' returns Privacy Act provisions",
+      "tool": "search_legislation",
+      "input": {
+        "query": "personal information"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "min_results": 1,
+        "any_result_contains": ["Privacy Act", "personal information", "APP"]
+      }
+    },
+    {
+      "id": "au-005",
+      "category": "search",
+      "description": "Full-text search for 'critical infrastructure' returns SOCI Act provisions",
+      "tool": "search_legislation",
+      "input": {
+        "query": "critical infrastructure"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "min_results": 1,
+        "any_result_contains": ["Security of Critical Infrastructure", "SOCI", "critical infrastructure"]
+      }
+    },
+    {
+      "id": "au-006",
+      "category": "search",
+      "description": "Full-text search for 'cybercrime' returns Criminal Code and Cybercrime Act provisions",
+      "tool": "search_legislation",
+      "input": {
+        "query": "cybercrime"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "min_results": 1,
+        "any_result_contains": ["Cybercrime Act", "Criminal Code", "computer", "offence"]
+      }
+    },
+    {
+      "id": "au-007",
+      "category": "citation_roundtrip",
+      "description": "Citation for Privacy Act 1988 Section 13 includes legislation.gov.au URL pattern",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Privacy Act 1988",
+        "article": "13"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "citation_url_pattern": "^https://www\\.legislation\\.gov\\.au/",
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "au-008",
+      "category": "citation_roundtrip",
+      "description": "Citation for SOCI Act 2018 Section 8 includes official identifier and URL",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Security of Critical Infrastructure Act 2018",
+        "article": "8"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "fields_present": ["text"],
+        "citation_url_pattern": "^https://www\\.legislation\\.gov\\.au/",
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "au-009",
+      "category": "eu_cross_reference",
+      "description": "Privacy Act 1988 cross-reference to EU GDPR — Australian privacy framework compared to EU data protection",
+      "tool": "get_provision_eu_basis",
+      "input": {
+        "law_identifier": "Privacy Act 1988"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "any_result_contains": ["GDPR", "General Data Protection Regulation", "2016/679", "EU adequacy"]
+      }
+    },
+    {
+      "id": "au-010",
+      "category": "eu_cross_reference",
+      "description": "SOCI Act 2018 cross-reference to EU NIS2 Directive — critical infrastructure protection frameworks",
+      "tool": "get_provision_eu_basis",
+      "input": {
+        "law_identifier": "Security of Critical Infrastructure Act 2018"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "any_result_contains": ["NIS2", "NIS 2", "2022/2555", "critical infrastructure", "essential services"]
+      }
+    },
+    {
+      "id": "au-011",
+      "category": "negative_test",
+      "description": "Non-existent Australian Act returns graceful error or empty result",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Fictional Kangaroo Protection Act 2099",
+        "article": "1"
+      },
+      "assertions": {
+        "handles_gracefully": true
+      }
+    },
+    {
+      "id": "au-012",
+      "category": "negative_test",
+      "description": "Malformed section number returns graceful error or empty result",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Privacy Act 1988",
+        "article": "999ZZZ-INVALID"
+      },
+      "assertions": {
+        "handles_gracefully": true
+      }
+    }
+  ]
+}
