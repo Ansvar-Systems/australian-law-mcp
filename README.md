@@ -123,6 +123,53 @@ Once connected, just ask naturally:
 
 ---
 
+## Key Legislation Covered
+
+| Act | Year | Domain | Key Topics |
+|-----|------|--------|------------|
+| **Privacy Act** | 1988 | Data Protection | Australian Privacy Principles (APPs), personal information, data breach notification |
+| **Security of Critical Infrastructure Act (SOCI)** | 2018 | Critical Infrastructure | Critical infrastructure sectors, positive security obligations, incident reporting |
+| **Telecommunications Act** | 1997 | Communications | Carrier obligations, interception, data retention |
+| **Corporations Act** | 2001 | Corporate Law | Company regulation, financial services, market conduct |
+| **Competition and Consumer Act** | 2010 | Consumer Protection | Australian Consumer Law (ACL), anti-competitive conduct |
+| **Cybercrime Act** | 2001 | Cybercrime | Computer offences, unauthorised access, data interference |
+| **Electronic Transactions Act** | 1999 | Digital | Electronic signatures, electronic contracts, validity |
+
+---
+
+---
+
+## Deployment Tier
+
+**MEDIUM** -- dual tier, free database bundled in npm package.
+
+| Tier | Platform | Database | Content |
+|------|----------|----------|---------|
+| **Free** | Vercel (Hobby) / npm (stdio) | Statutes only (~150-200 MB) | Core Commonwealth legislation, FTS search, EU/international cross-references |
+| **Professional** | Azure Container Apps / Docker / Local | Full database (~800 MB - 1 GB) | + Case law (via AustLII), explanatory memoranda, regulatory guidance |
+
+The full database is larger due to case law from AustLII and supplementary materials. The free tier contains all Commonwealth Acts and regulations from the Federal Register of Legislation.
+
+---
+
+---
+
+## Database Estimates
+
+| Component | Free Tier | Full (Professional) |
+|-----------|-----------|---------------------|
+| Commonwealth Acts | ~150-200 MB | ~150-200 MB |
+| Case law (AustLII) | -- | ~400-500 MB |
+| Explanatory memoranda | -- | ~100-200 MB |
+| Cross-references & metadata | ~5 MB | ~15 MB |
+| **Total** | **~150-200 MB** | **~800 MB - 1 GB** |
+
+**Delivery strategy:** Free-tier DB bundled in npm package (Strategy A -- fits within Vercel 250 MB function limit). If final size exceeds 250 MB after ingestion, switch to Strategy B (runtime download from GitHub Releases).
+
+---
+
+---
+
 ## Available Tools (13)
 
 ### Core Legal Research Tools (8)
