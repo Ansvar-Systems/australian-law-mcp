@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "jurisdiction": "AU",
+  "portal": "legislation.gov.au",
+  "generated": "2026-02-22",
+  "total_laws": 10,
+  "total_provisions": 2733,
+  "laws": [
+    {
+      "id": "cca-2010",
+      "title": "Competition and Consumer Act 2010",
+      "provisions": 540
+    },
+    {
+      "id": "corporations-act-2001",
+      "title": "Corporations Act 2001",
+      "provisions": 565
+    },
+    {
+      "id": "criminal-code-act-1995",
+      "title": "Criminal Code Act 1995",
+      "provisions": 537
+    },
+    {
+      "id": "cybercrime-act-2001",
+      "title": "Cybercrime Act 2001",
+      "provisions": 15
+    },
+    {
+      "id": "electronic-transactions-act-1999",
+      "title": "Electronic Transactions Act 1999",
+      "provisions": 26
+    },
+    {
+      "id": "privacy-act-1988",
+      "title": "Privacy Act 1988",
+      "provisions": 317
+    },
+    {
+      "id": "soci-act-2018",
+      "title": "Security of Critical Infrastructure Act 2018",
+      "provisions": 222
+    },
+    {
+      "id": "spam-act-2003",
+      "title": "Spam Act 2003",
+      "provisions": 46
+    },
+    {
+      "id": "surveillance-devices-act-2004",
+      "title": "Surveillance Devices Act 2004",
+      "provisions": 132
+    },
+    {
+      "id": "telecommunications-act-1997",
+      "title": "Telecommunications Act 1997",
+      "provisions": 333
+    }
+  ]
+}

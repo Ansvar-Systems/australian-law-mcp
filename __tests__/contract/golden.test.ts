@@ -7,12 +7,15 @@
  */
 
 import { describe, it, expect } from 'vitest';
-import { readFileSync } from 'fs';
-import { join, dirname } from 'path';
-import { fileURLToPath } from 'url';
+import { existsSync, readFileSync } from 'node:fs';
+import { join, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
+const DB_PATH = join(__dirname, '../../data/database.db');
 const fixturesPath = join(__dirname, '../../fixtures/golden-tests.json');
+
+const dbAvailable = existsSync(DB_PATH);
 
 interface GoldenTest {
   id: string;
@@ -37,9 +40,9 @@ interface GoldenFixture {
   tests: GoldenTest[];
 }
 
-const fixture: GoldenFixture = JSON.parse(readFileSync(fixturesPath, 'utf-8'));
+describe.skipIf(!dbAvailable)('Golden contract tests', () => {
+  const fixture: GoldenFixture = JSON.parse(readFileSync(fixturesPath, 'utf-8'));
 
-describe('Golden contract tests', () => {
   it('fixture file is valid', () => {
     expect(fixture.version).toBe('1.0');
     expect(fixture.mcp_name).toBe('Australian Law MCP');

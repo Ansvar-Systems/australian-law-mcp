@@ -1,6 +1,6 @@
 {
   "name": "@ansvar/australian-law-mcp",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "mcpName": "eu.ansvar/australian-law-mcp",
   "description": "Australian federal law database covering privacy, cybersecurity, critical infrastructure, corporations, and consumer law with full-text search",
   "author": "Ansvar Systems AB <hello@ansvar.ai>",
