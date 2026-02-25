@@ -15,7 +15,11 @@
  * - 500ms minimum delay between requests (be respectful to government servers)
  * - User-Agent header identifying the MCP
  * - No auth needed (CC BY 4.0)
+ *
+ * Uses curl as the HTTP backend for reliable connectivity to Australian government servers.
  */
+
+import { execSync } from 'child_process';
 
 const USER_AGENT = 'Australian-Law-MCP/1.0 (https://github.com/Ansvar-Systems/australian-law-mcp; hello@ansvar.ai)';
 const MIN_DELAY_MS = 500;
@@ -53,35 +57,53 @@ export interface VersionInfo {
 }
 
 /**
- * Fetch a URL with rate limiting and proper headers.
- * Retries up to 3 times on 429/5xx errors with exponential backoff.
+ * Fetch a URL using curl for reliable connectivity.
+ * Writes response to a temp file to handle large payloads, then reads status from headers.
+ * Retries up to maxRetries times on 429/5xx errors with exponential backoff.
  */
 export async function fetchWithRateLimit(url: string, accept = 'text/html, application/xhtml+xml, application/xml, */*', maxRetries = 3): Promise<FetchResult> {
   await rateLimit();
 
   for (let attempt = 0; attempt <= maxRetries; attempt++) {
-    const response = await fetch(url, {
-      headers: {
-        'User-Agent': USER_AGENT,
-        'Accept': accept,
-      },
-    });
+    try {
+      // Use curl with -w to get the HTTP status code appended after body
+      const escaped = url.replace(/'/g, "'\\''");
+      const result = execSync(
+        `curl -s --connect-timeout 30 --max-time 180 ` +
+        `-H 'Accept: ${accept}' ` +
+        `-H 'User-Agent: ${USER_AGENT}' ` +
+        `-w '\\n__HTTP_STATUS__%{http_code}' ` +
+        `'${escaped}'`,
+        { encoding: 'utf-8', maxBuffer: 100 * 1024 * 1024 },
+      );
 
-    if (response.status === 429 || response.status >= 500) {
-      if (attempt < maxRetries) {
+      // Extract HTTP status from the last line
+      const statusMatch = result.match(/__HTTP_STATUS__(\d+)$/);
+      const status = statusMatch ? parseInt(statusMatch[1], 10) : 0;
+      const body = result.replace(/\n__HTTP_STATUS__\d+$/, '');
+
+      if ((status === 429 || status >= 500) && attempt < maxRetries) {
         const backoff = Math.pow(2, attempt + 1) * 1000;
-        console.log(`  HTTP ${response.status} for ${url}, retrying in ${backoff}ms...`);
+        console.log(`  HTTP ${status} for ${url}, retrying in ${backoff}ms...`);
         await new Promise(resolve => setTimeout(resolve, backoff));
         continue;
       }
-    }
 
-    const body = await response.text();
-    return {
-      status: response.status,
-      body,
-      contentType: response.headers.get('content-type') ?? '',
-    };
+      return {
+        status,
+        body,
+        contentType: '',
+      };
+    } catch (error) {
+      if (attempt < maxRetries) {
+        const backoff = Math.pow(2, attempt + 1) * 1000;
+        const msg = error instanceof Error ? error.message.substring(0, 100) : 'unknown';
+        console.log(`  Fetch error (attempt ${attempt + 1}/${maxRetries + 1}): ${msg}, retrying in ${backoff}ms...`);
+        await new Promise(resolve => setTimeout(resolve, backoff));
+        continue;
+      }
+      throw error;
+    }
   }
 
   throw new Error(`Failed to fetch ${url} after ${maxRetries} retries`);
