@@ -7,8 +7,10 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![GitHub stars](https://img.shields.io/github/stars/Ansvar-Systems/Australian-law-mcp?style=social)](https://github.com/Ansvar-Systems/Australian-law-mcp)
 [![CI](https://github.com/Ansvar-Systems/Australian-law-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/Ansvar-Systems/Australian-law-mcp/actions/workflows/ci.yml)
+[![Database](https://img.shields.io/badge/database-pre--built-green)]()
+[![Provisions](https://img.shields.io/badge/provisions-69%2C797-blue)]()
 
-Query **Australian legislation** -- covering data protection, cybersecurity, corporate law, and more -- directly from Claude, Cursor, or any MCP-compatible client.
+Query **1,253 Australian Acts** -- from the Privacy Act and Security of Critical Infrastructure Act to the Corporations Act, Cybercrime Act, and more -- directly from Claude, Cursor, or any MCP-compatible client.
 
 If you're building legal tech, compliance tools, or doing Australian legal research, this is your verified reference database.
 
@@ -18,11 +20,11 @@ Built by [Ansvar Systems](https://ansvar.eu) -- Stockholm, Sweden
 
 ## Why This Exists
 
-Australian legal research is scattered across official government databases, commercial legal platforms, and institutional archives. Whether you're:
-- A **lawyer** validating citations in a brief or contract
-- A **compliance officer** checking if a statute is still in force
-- A **legal tech developer** building tools on Australian law
-- A **researcher** tracing legislative history
+Australian legal research is scattered across the Federal Register of Legislation, ComLaw, AustLII, and state government portals. Whether you're:
+- A **lawyer** validating citations in a brief under the Privacy Act 1988 or Corporations Act 2001
+- A **compliance officer** checking Australian Privacy Principles (APPs) for your data handling practices
+- A **legal tech developer** building tools on Australian Commonwealth legislation
+- A **researcher** tracing legislative history from Royal Assent through amendments
 
 ...you shouldn't need dozens of browser tabs and manual PDF cross-referencing. Ask Claude. Get the exact provision. With context.
 
@@ -112,14 +114,14 @@ npx @ansvar/australian-law-mcp
 
 Once connected, just ask naturally:
 
-- *"What does the Australian data protection law say about consent?"*
-- *"Search for cybersecurity requirements in Australian legislation"*
-- *"Is this statute still in force?"*
-- *"Find provisions about personal data in Australian law"*
-- *"What EU directives does this Australian law implement?"*
+- *"What does the Privacy Act 1988 say about Australian Privacy Principles?"*
+- *"Find provisions about critical infrastructure in the SOCI Act"*
+- *"Is the Cybercrime Act 2001 still in force?"*
+- *"What does the Corporations Act say about directors' duties?"*
+- *"Search for data breach notification requirements under the Privacy Act"*
 - *"Which Australian laws implement the GDPR?"*
-- *"Validate this legal citation"*
-- *"Build a legal stance on data breach notification requirements"*
+- *"What are the penalties under the Competition and Consumer Act?"*
+- *"Build a legal stance on telecommunications data retention in Australia"*
 
 ---
 
