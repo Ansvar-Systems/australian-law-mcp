@@ -1,8 +1,8 @@
 {
   "name": "@ansvar/australian-law-mcp",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "mcpName": "eu.ansvar/australian-law-mcp",
-  "description": "Australian federal law database covering privacy, cybersecurity, critical infrastructure, corporations, and consumer law with full-text search",
+  "description": "Complete Australian federal law database — 1,253 Acts from Federal Register of Legislation (legislation.gov.au) with full-text search, definitions, and citation support",
   "author": "Ansvar Systems AB <hello@ansvar.ai>",
   "license": "Apache-2.0",
   "repository": {
