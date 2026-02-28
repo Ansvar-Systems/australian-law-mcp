@@ -9,3 +9,5 @@ data/seed/
 coverage/
 .vercel/
 .DS_Store
+.claude/
+.serena/
