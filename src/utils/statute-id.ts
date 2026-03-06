@@ -20,6 +20,7 @@ export function resolveDocumentId(
   db: InstanceType<typeof Database>,
   input: string,
 ): string | null {
+  if (!input || typeof input !== 'string') return null;
   const trimmed = input.trim();
   if (!trimmed) return null;
 

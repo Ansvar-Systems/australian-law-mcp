@@ -9,6 +9,7 @@ import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.j
 export interface GetProvisionInput {
   document_id: string;
   section?: string;
+  article?: string;
   provision_ref?: string;
   as_of_date?: string;
 }
@@ -48,7 +49,7 @@ export async function getProvision(
   }
 
   // Specific provision lookup
-  const ref = input.provision_ref ?? input.section;
+  const ref = input.provision_ref ?? input.section ?? (input as any).article;
   if (ref) {
     const refTrimmed = ref.trim();
 
