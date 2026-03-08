@@ -6,7 +6,11 @@
       "schedule": "*/5 * * * *"
     }
   ],
+<<<<<<< HEAD
   "buildCommand": "bash scripts/download-db.sh && npm run build",
+=======
+  "buildCommand": "npm run build:db && npm run build",
+>>>>>>> origin/dev
   "outputDirectory": ".",
   "functions": {
     "api/mcp.ts": {
